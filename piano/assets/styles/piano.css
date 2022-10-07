@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(185, 126, 126);
+    background-image: url("../imgs/piano.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#div2 {
+    border: solid 10px black;
+    border-radius: 12px;
+    position: absolute;
+    background-color: black;
+}
+
+#div1 {
+    z-index: 2;
+    position: relative;
+    float: left;
+    margin-left: 60px;
+    border-radius: 12px;
+}
+
+#div3 {
+    z-index: 2;
+    position: relative;
+    float: left;
+    margin-left: 120px;
+    border-radius: 12px;
+}
+
+#div4 {
+    z-index: 2;
+    position: relative;
+    float: left;
+    margin-left: 120px;
+    border-radius: 12px;
+}
+
+#bt2,
+#bt4,
+#bt6,
+#bt8,
+#bt10,
+#bt12,
+#bt14,
+#bt16,
+#bt18,
+#bt20 {
+    width: 90px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 12px;
+}
+
+#bt1,
+#bt3,
+#bt5,
+#bt7,
+#bt9,
+#bt11,
+#bt13 {
+    background-color: black;
+    width: 60px;
+    height: 250px;
+    border-radius: 12px;
+    margin-left: 20px;
+}
+
+h1 {
+    font-family: Cursive;
+    font-size: 90px;
+}
+
+h2 {
+    font-family: Cursive;
+    margin-right: 100px;
+}
